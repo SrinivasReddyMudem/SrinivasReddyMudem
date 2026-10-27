@@ -16,7 +16,7 @@ I integrated an existing C ISO-TP implementation with two host endpoints, frame 
 
 **Recorded example:** 5/5 application bytes matched · 17/17 behavioral assertions passed.
 
-`C` · `ISO-TP` · `GCC / Clang` · `CMake / CTest` · `Python`
+![C](assets/tech-c.svg) ![ISO-TP](assets/tech-iso-tp.svg) ![GCC / Clang](assets/tech-gcc---clang.svg) ![CMake / CTest](assets/tech-cmake---ctest.svg) ![Python](assets/tech-python.svg)
 
 **[See the demonstration and evidence →](https://github.com/SrinivasReddyMudem/engineering-portfolio/blob/main/case-studies/embedded-communication.md)**
 
@@ -32,7 +32,7 @@ I integrated Zephyr RTOS tests into an isolated Jenkins/Docker workflow, injecte
 
 **Recorded result:** 10/10 passed → defect detected: 7 passed, 3 failed → recovery: 10/10 passed.
 
-`Jenkins` · `Docker` · `Zephyr RTOS` · `Twister / Ztest` · `Python`
+![Jenkins](assets/tech-jenkins.svg) ![Docker](assets/tech-docker.svg) ![Zephyr RTOS](assets/tech-zephyr-rtos.svg) ![Twister / Ztest](assets/tech-twister---ztest.svg) ![Python](assets/tech-python.svg)
 
 **[Inspect the failure and verified recovery →](https://github.com/SrinivasReddyMudem/engineering-portfolio/blob/main/case-studies/failure-to-recovery.md)**
 
@@ -46,7 +46,7 @@ I built a Python application with **13 specialist agents and eight domain knowle
 
 **Software verification:** 441 offline checks passed with mocked provider responses. These test application behavior, rather than live AI accuracy.
 
-`Python` · `Streamlit` · `Pydantic` · `pytest`
+![Python](assets/tech-python.svg) ![Streamlit](assets/tech-streamlit.svg) ![Pydantic](assets/tech-pydantic.svg) ![pytest](assets/tech-pytest.svg)
 
 **[Try the live application ↗](https://automotive-skilled-ai-agents.streamlit.app/)** · **[Explore the engineering and validation →](https://github.com/SrinivasReddyMudem/engineering-portfolio/blob/main/case-studies/engineering-analysis.md)**
 
@@ -60,7 +60,7 @@ My personal Python pipeline composites synthetic humans and real-person crops in
 
 **Capabilities:** Computer-vision data pipelines, image processing, dataset generation and annotation checks. This builds on my master's thesis work in camera-based pedestrian detection.
 
-`Python` / `OpenCV` / `NumPy` / `SciPy` / `PyTorch` / `KITTI, COCO, YOLO labels`
+![Python](assets/tech-python.svg) ![OpenCV](assets/tech-opencv.svg) ![NumPy](assets/tech-numpy.svg) ![SciPy](assets/tech-scipy.svg) ![PyTorch](assets/tech-pytorch.svg) ![KITTI / COCO / YOLO](assets/tech-kitti---coco---yolo.svg)
 
 ---
 
