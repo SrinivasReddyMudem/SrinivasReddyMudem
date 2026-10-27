@@ -17,7 +17,6 @@ Alongside my professional work, I build Python engineering tools, embedded verif
 
 - Embedded software development, integration, debugging and verification.
 - Hands-on engineering automation and domain-specific AI projects.
-- AWS DevOps certification preparation, currently in progress.
 
 ## Technical Skills
 
@@ -52,11 +51,9 @@ Alongside my professional work, I build Python engineering tools, embedded verif
 
 ![CPPM completed](assets/cppm.svg) ![Agile Master completed](assets/agile.svg)
 
-![AWS DevOps training in progress](assets/aws.svg)
 
 - **Certified Product & Project Manager (CPPM)** - Agile product/project management, roadmaps, risks and stakeholder coordination.
 - **Agile Master Certificate** - Agile leadership, sprint planning and cross-functional collaboration.
-- **AWS DevOps certification preparation - in progress.** Training toward DevOps engineering roles.
 
 ## Education
 
