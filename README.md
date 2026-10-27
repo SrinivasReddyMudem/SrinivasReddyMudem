@@ -64,15 +64,20 @@ My personal Python pipeline composites synthetic humans and real-person crops in
 
 ---
 
-## Skills Behind the Projects
+## Technical Skills
 
-| Area | Technologies |
+Experience across professional embedded engineering and hands-on personal projects.
+
+| Area | Tools & Technologies |
 | :--- | :--- |
-| ![Programming](assets/programming.svg) | C, C++, Python |
-| ![Embedded systems](assets/embedded.svg) | ISO-TP, diagnostic transport, RTOS, Zephyr |
-| ![Build and version control](assets/build.svg) | Jenkins, Docker, Git, CMake, GCC/Clang |
-| ![Testing and quality](assets/testing.svg) | CTest, Twister/Ztest, pytest, fault injection |
-| ![Python, AI and computer vision](assets/ai.svg) | Streamlit, Pydantic, PyTorch, OpenCV, NumPy, SciPy |
+| ![ Programming ](assets/programming.svg) | C, C++, Python, CAPL |
+| ![ Embedded Systems ](assets/embedded.svg) | ARM Cortex-A/R/M, ARM7, AVR, RTOS, AUTOSAR ASW/BSW, BSP/application integration |
+| ![ Diagnostics & Communication ](assets/diagnostics.svg) | CAN, UDS, Diagnostic Log and Trace (DLT), Ethernet, I2C, SPI, UART |
+| ![ Debugging & Measurement ](assets/debugging.svg) | TRACE32/Lauterbach, J-Link, JTAG/SWD, oscilloscopes, logic analyzers, trace and log analysis |
+| ![ Testing & Quality ](assets/testing.svg) | Unity/Ceedling, integration testing, HIL/SIL, CANoe, INCA, QAC, MISRA-C |
+| ![ Build & Version Control ](assets/build.svg) | Jenkins, Git, GitLab, Gerrit, PTC; Docker, CMake/CTest and Zephyr Twister/Ztest in personal projects |
+| ![ Python, AI & Computer Vision ](assets/ai.svg) | PyTorch, OpenCV, NumPy, SciPy, VGG16, ResNet, Streamlit, Pydantic, pytest |
+| ![ Engineering Processes ](assets/process.svg) | Requirements analysis, ASPICE, ISO 26262, Agile/Scrum, supplier coordination and release planning |
 
 ## Completed Qualifications
 
