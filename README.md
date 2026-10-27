@@ -1,72 +1,83 @@
-<img src="assets/profile-banner.svg" alt="Srinivas Reddy Mudem - Embedded Software - Integration & Verification - Applied AI" width="1120">
+<img src="assets/profile-banner.svg" alt="Srinivas Reddy Mudem — Embedded Software · Integration & Verification · Applied AI" width="1120">
 
-## Srinivas Reddy Mudem
-### Embedded Software Engineer - Integration & Verification - Technical Project Leadership
+I'm **Srinivas Reddy Mudem**, an embedded software engineer with **11+ years of experience**. Here I share hands-on projects in embedded communication, automated verification, engineering AI and computer vision.
 
-[![Connect on LinkedIn](assets/linkedin.svg)](https://www.linkedin.com/in/srinivas-reddy-mudem-400181152/) [![Engineering portfolio](assets/portfolio.svg)](https://github.com/SrinivasReddyMudem/engineering-portfolio) [![Live AI application](assets/demo.svg)](https://automotive-skilled-ai-agents.streamlit.app/)
+[![Engineering portfolio](assets/portfolio.svg)](https://github.com/SrinivasReddyMudem/engineering-portfolio) [![Live AI application](assets/demo.svg)](https://automotive-skilled-ai-agents.streamlit.app/) [![Connect on LinkedIn](assets/linkedin.svg)](https://www.linkedin.com/in/srinivas-reddy-mudem-400181152/)
 
-## Professional Summary
+## Explore My Projects
 
-Software engineer with **11+ years of experience** developing, integrating and testing embedded software, from low-level drivers and AUTOSAR diagnostics to camera ECUs and smart-access systems. My work combines hands-on C/C++ development, systematic debugging and coordination across development, test teams and suppliers.
+### Embedded Communication & Diagnostics
 
-Alongside my professional work, I build Python engineering tools, embedded verification demonstrations and domain-specific AI workflows. My computer-vision experience includes a master's thesis on camera-based pedestrian detection and a personal synthetic-data pipeline.
+**Follow a message from sender to receiver—and see what happens when something goes wrong.**
 
-**Based in Singen, Germany** - **English: Fluent** - **German: B1**
+<a href="https://github.com/SrinivasReddyMudem/engineering-portfolio/blob/main/case-studies/embedded-communication.md"><img src="https://raw.githubusercontent.com/SrinivasReddyMudem/engineering-portfolio/main/assets/communication-demo.gif" alt="Recorded local embedded communication demonstration" width="560"></a>
 
-## Current Focus
+I integrated an existing C ISO-TP implementation with two host endpoints, frame tracing, controlled faults and repeatable verification.
 
-- Embedded software development, integration, debugging and verification.
-- Hands-on engineering automation and domain-specific AI projects.
+**Recorded example:** 5/5 application bytes matched · 17/17 behavioral assertions passed.
 
-## Technical Skills
+`C` · `ISO-TP` · `GCC / Clang` · `CMake / CTest` · `Python`
 
-| Area | Tools & Technologies |
+**[See the demonstration and evidence →](https://github.com/SrinivasReddyMudem/engineering-portfolio/blob/main/case-studies/embedded-communication.md)**
+
+<sub>Local C execution with replayed recorded frames; the demonstration does not use physical CAN hardware.</sub>
+
+### Embedded Build Reliability
+
+**A successful build is only the beginning. Tests must catch incorrect behavior.**
+
+[![Recorded Jenkins results: baseline 10 passed; injected defect 7 passed and 3 failed; recovery 10 passed](https://raw.githubusercontent.com/SrinivasReddyMudem/engineering-portfolio/main/assets/jenkins-verification.svg)](https://github.com/SrinivasReddyMudem/engineering-portfolio/blob/main/case-studies/failure-to-recovery.md)
+
+I integrated Zephyr RTOS tests into an isolated Jenkins/Docker workflow, injected a controlled defect and verified the repair with the same assertions.
+
+**Recorded result:** 10/10 passed → defect detected: 7 passed, 3 failed → recovery: 10/10 passed.
+
+`Jenkins` · `Docker` · `Zephyr RTOS` · `Twister / Ztest` · `Python`
+
+**[Inspect the failure and verified recovery →](https://github.com/SrinivasReddyMudem/engineering-portfolio/blob/main/case-studies/failure-to-recovery.md)**
+
+### Domain-Specific AI Agents
+
+**Make engineering questions easier to investigate: what is known, what is missing, and what should be checked next?**
+
+[![Domain-specific AI agents for structured engineering investigation](https://raw.githubusercontent.com/SrinivasReddyMudem/engineering-portfolio/main/assets/project-analysis.svg)](https://automotive-skilled-ai-agents.streamlit.app/)
+
+I built a Python application with **13 specialist agents and eight domain knowledge packs**, structured response schemas and targeted validation. Workflows cover embedded development, diagnostics, integration and engineering analysis.
+
+**Software verification:** 441 offline checks passed with mocked provider responses. These test application behavior, rather than live AI accuracy.
+
+`Python` · `Streamlit` · `Pydantic` · `pytest`
+
+**[Try the live application ↗](https://automotive-skilled-ai-agents.streamlit.app/)** · **[Explore the engineering and validation →](https://github.com/SrinivasReddyMudem/engineering-portfolio/blob/main/case-studies/engineering-analysis.md)**
+
+---
+
+### Synthetic Pedestrian Data Pipeline
+
+**Create annotated camera datasets with synthetic pedestrians.**
+
+My personal Python pipeline composites synthetic humans and real-person crops into camera images. It includes perspective-aware placement, colour matching, shadows and annotation validation, with separate training and detection-evaluation scripts.
+
+**Capabilities:** Computer-vision data pipelines, image processing, dataset generation and annotation checks. This builds on my master's thesis work in camera-based pedestrian detection.
+
+`Python` / `OpenCV` / `NumPy` / `SciPy` / `PyTorch` / `KITTI, COCO, YOLO labels`
+
+---
+
+## Skills Behind the Projects
+
+| Area | Technologies |
 | :--- | :--- |
-| ![ Programming ](assets/programming.svg) | C, C++, Python, CAPL |
-| ![ Embedded Systems ](assets/embedded.svg) | ARM Cortex-A/R/M, ARM7, AVR, RTOS, AUTOSAR ASW/BSW, BSP/application integration |
-| ![ Diagnostics & Communication ](assets/diagnostics.svg) | CAN, UDS, Diagnostic Log and Trace (DLT), Ethernet, I2C, SPI, UART |
-| ![ Debugging & Measurement ](assets/debugging.svg) | TRACE32/Lauterbach, J-Link, JTAG/SWD, oscilloscopes, logic analyzers, trace and log analysis |
-| ![ Testing & Quality ](assets/testing.svg) | Unity/Ceedling, integration testing, HIL/SIL, CANoe, INCA, QAC, MISRA-C |
-| ![ Build & Version Control ](assets/build.svg) | Jenkins, Git, GitLab, Gerrit, PTC; Docker, CMake/CTest and Zephyr Twister/Ztest in personal projects |
-| ![ Python, AI & Computer Vision ](assets/ai.svg) | PyTorch, OpenCV, NumPy, SciPy, VGG16, ResNet, Streamlit, Pydantic, pytest |
-| ![ Engineering Processes ](assets/process.svg) | Requirements analysis, ASPICE, ISO 26262, Agile/Scrum, supplier coordination and release planning |
+| ![Programming](assets/programming.svg) | C, C++, Python |
+| ![Embedded systems](assets/embedded.svg) | ISO-TP, diagnostic transport, RTOS, Zephyr |
+| ![Build and version control](assets/build.svg) | Jenkins, Docker, Git, CMake, GCC/Clang |
+| ![Testing and quality](assets/testing.svg) | CTest, Twister/Ztest, pytest, fault injection |
+| ![Python, AI and computer vision](assets/ai.svg) | Streamlit, Pydantic, PyTorch, OpenCV, NumPy, SciPy |
 
-## How I Verify My Projects
+## Completed Qualifications
 
-![Source change, build, behavioral tests, inspect failures, verify repair, retain evidence](assets/verification-workflow.svg)
+![Certified Product and Project Manager completed](assets/cppm.svg) ![Agile Master Certificate completed](assets/agile.svg)
 
-## Professional Experience
+**Certified Product & Project Manager (CPPM)** / **Agile Master Certificate**
 
-| Company | Role / Assignment | Period | Focus |
-| :--- | :--- | :--- | :--- |
-| **Marquardt GmbH** | Senior Embedded Software Engineer & Project Lead | 01/2024 - Present | Smart-access ECU software, CCC Digital Key, diagnostics, integration and technical coordination |
-| **BCS Automotive Interface Solutions** | Software Development Expert | 01/2022 - 12/2023 | AUTOSAR diagnostics, requirements-to-test development and Unity/Ceedling unit testing |
-| **Magna Electronics** - via ALTEN | Software Integrator & Project Lead | 10/2020 - 12/2021 | ARM-based ADAS camera ECUs, BSP/application integration, Jenkins/QAC and release readiness |
-| **Robert Bosch GmbH** - via ALTEN | Senior Software Engineer | 07/2019 - 09/2020 | AUTOSAR DLT, diagnostic data flow and multicore communication |
-| **Audi Electronics Venture** | Master's Thesis & R&D Internship | 03/2018 - 06/2019 | Pedestrian detection, synthetic camera datasets and architecture traceability |
-| **Robert Bosch** | Software Engineer | 01/2014 - 12/2016 | Embedded C engine-management software, MISRA-C checks and HIL integration testing |
-| **Microbit Embedded Solutions** | Embedded Software Developer | 05/2012 - 01/2014 | ARM7/AVR peripheral drivers, interrupt handling and RTOS-based scheduling |
-
-## Certifications & Professional Development
-
-![CPPM completed](assets/cppm.svg) ![Agile Master completed](assets/agile.svg)
-
-
-- **Certified Product & Project Manager (CPPM)** - Agile product/project management, roadmaps, risks and stakeholder coordination.
-- **Agile Master Certificate** - Agile leadership, sprint planning and cross-functional collaboration.
-
-## Education
-
-- **M.Sc. Automotive Software Engineering** - Technical University of Chemnitz, Germany - 2017 - 2019.
-- **B.Tech. Electronics and Communication Engineering** - Jawaharlal Nehru Technological University, India - 2008 - 2012.
-
-## Engineering Projects
-
-| Project | What I built | Explore |
-| :--- | :--- | :--- |
-| **Embedded Communication & Diagnostics** | Two host endpoints using an existing C ISO-TP implementation, with frame tracing, fault injection and automated verification. | [Demonstration & evidence](https://github.com/SrinivasReddyMudem/engineering-portfolio/blob/main/case-studies/embedded-communication.md) |
-| **Embedded Build Reliability** | Jenkins/Docker workflow with Zephyr tests that detect an injected defect and verify its repair using unchanged assertions. | [Failure - recovery](https://github.com/SrinivasReddyMudem/engineering-portfolio/blob/main/case-studies/failure-to-recovery.md) |
-| **Domain-Specific AI Agents** | Python application with 13 specialist agents, eight domain knowledge packs, structured outputs and targeted validation. | [Live application](https://automotive-skilled-ai-agents.streamlit.app/) - [Engineering details](https://github.com/SrinivasReddyMudem/engineering-portfolio/blob/main/case-studies/engineering-analysis.md) |
-| **Synthetic Pedestrian Data Pipeline** | Modular Python workflows for pedestrian compositing, image processing and annotation validation. | Python / OpenCV - personal project. |
-
-**[Browse the full engineering portfolio  - ](https://github.com/SrinivasReddyMudem/engineering-portfolio)**
+**[Explore the complete engineering portfolio](https://github.com/SrinivasReddyMudem/engineering-portfolio)** / **[Connect on LinkedIn](https://www.linkedin.com/in/srinivas-reddy-mudem-400181152/)**
